@@ -1,0 +1,42 @@
+import React from 'react'
+import { Container, Row, Col} from 'react-bootstrap';
+
+function About() {
+  return (
+    <>
+        <Container style={{marginTop: '50px'}}>
+            <h1>Qui suis-je</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos pariatur natus facilis libero. Odit officiis et eaque molestias amet incidunt, optio excepturi, rem id labore qui ipsam ipsa vitae nulla nisi soluta recusandae voluptatem, possimus fugiat. Pariatur sapiente assumenda dolorem, asperiores aliquam quis voluptatum harum commodi eos delectus nesciunt labore corporis dolorum consequatur temporibus aliquid officia id quibusdam omnis? Vero nisi rerum nobis magnam eum. Expedita cum rerum neque ipsum, labore totam nihil debitis, inventore hic optio distinctio ad quia alias, officiis tenetur accusamus incidunt provident magni ratione corporis officia blanditiis! Excepturi natus ad molestias nostrum porro. Natus illum quasi dolorem. Repellat, debitis quae at dolorum, aspernatur, earum iure ut nesciunt excepturi fugiat autem optio recusandae nobis sit qui voluptatem praesentium? Laborum quasi veniam vel soluta harum amet dolores perferendis, labore ea quod excepturi commodi, iusto enim pariatur facere alias quos illum quia! Tempora iusto magni eius repudiandae autem consectetur a quam iste voluptates quisquam praesentium quidem illo nostrum, omnis qui distinctio quasi inventore. Hic eius esse quibusdam quidem obcaecati iusto nulla ipsum quisquam aspernatur sed, neque qui, repellat, dolore deserunt cum? Dolorem minus dicta quos, exercitationem magnam, reiciendis quis laudantium possimus, aspernatur at voluptatem eos. Nihil sed deleniti non.</p>
+            <h1>Le but du jeu</h1>
+            <Row>
+                <Col md={6}>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, iusto nobis possimus incidunt, neque accusamus ducimus minima ea beatae blanditiis, quam aspernatur a voluptate. Iste magnam, harum libero totam alias placeat magni non perspiciatis commodi facere cupiditate rem quidem voluptates aperiam maxime ea veniam reiciendis dolores. Dolorum ducimus sapiente omnis repellendus soluta iure qui, eaque perferendis, neque nesciunt laboriosam, fugit enim? Dolores natus modi eos aliquam aspernatur rerum, explicabo iusto temporibus optio, odio a, quidem voluptatum enim tenetur impedit dicta minima maiores perspiciatis? Odit natus, ipsam quibusdam consectetur rem veniam consequatur, similique maiores laboriosam, commodi ipsum magni aperiam distinctio iure qui nam. Consequatur non mollitia aspernatur veritatis voluptas sed nemo eius tempora accusantium harum eum id, ab molestias voluptates accusamus dolore voluptatem temporibus rerum porro excepturi tempore? Doloremque illo in laborum eligendi aperiam earum laboriosam fugit corrupti optio quisquam aliquid dolore fugiat dolorem doloribus est ratione qui dicta, id aspernatur provident quia dolorum. Sunt libero praesentium unde neque assumenda odio amet reprehenderit, sequi nemo, minus magni officiis itaque maiores! Officiis voluptas nostrum vel quia adipisci impedit accusamus veniam eos, alias recusandae commodi ut pariatur repudiandae numquam quisquam quis cumque soluta distinctio quo nisi reiciendis accusantium minima possimus placeat. Architecto, laudantium!</p>
+                </Col>
+                <Col md={6}>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure, et dolores. Autem earum quod laborum eveniet ea quisquam error, obcaecati ipsa eum dignissimos illum placeat iure iusto ratione ipsam laboriosam! Pariatur architecto quod maxime, dolorum suscipit delectus illum repellendus illo porro esse! Impedit placeat culpa tempora sunt ipsum officiis, odio sequi in deserunt hic beatae dolorum reprehenderit est! Autem ullam perspiciatis dolorum minima deserunt fugiat ex, blanditiis nulla dolor magnam inventore nostrum eum nesciunt! Similique odio incidunt veniam aliquid obcaecati vero quidem, minus delectus sint nam veritatis debitis totam, autem sed. Eveniet, vero itaque facilis repellat officiis omnis ad, quis autem aperiam pariatur id veritatis reiciendis doloremque? Eligendi numquam est laborum incidunt dolorem voluptas! Eveniet repellendus necessitatibus illum quam iusto exercitationem quo vitae sed aspernatur architecto! Velit aliquam delectus laboriosam quisquam veniam, enim repudiandae asperiores optio totam laudantium veritatis? Delectus eos eveniet incidunt veniam ipsa molestias temporibus voluptatibus rem, alias ut necessitatibus, unde sunt deleniti enim error earum tenetur eius nulla? Impedit ea, obcaecati perferendis at sint earum, aliquid quasi temporibus, quo facilis nobis laboriosam veritatis sit dignissimos iusto distinctio amet alias iste. Nulla possimus quae provident eius inventore aperiam tenetur error! Nulla ratione sed ipsa aperiam quae eligendi temporibus.</p>
+                </Col>
+            </Row>
+            <Row>
+                <h1>Ma formation</h1>
+                <Col md={3}>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis quaerat omnis sed earum rerum ipsam iure quia molestias doloribus. Architecto cum delectus, quisquam rerum alias, veniam voluptas corporis quasi eveniet eligendi quidem vero ullam enim cupiditate voluptatibus, quis aperiam qui nemo incidunt itaque minus molestiae! Voluptatem maxime id omnis aut cumque totam eveniet ipsa doloribus quod dolore expedita, repellat cupiditate tempora sunt dicta assumenda veniam pariatur eius ipsum. Explicabo, porro iste. Molestiae, soluta deserunt officiis sint voluptatem tempore, repellat iste quia possimus quisquam molestias, ea nisi sed suscipit? Voluptas illum architecto fugiat eligendi culpa maiores quaerat blanditiis necessitatibus iste repellendus?</p>
+                </Col>
+                <Col md={3}>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati voluptatum repellendus autem magni vero ab natus. Vel at hic aspernatur quis quia, expedita numquam sapiente! Minima exercitationem corrupti, facilis nisi magni tenetur, aut quam reprehenderit et eum fuga molestias dolores tempore temporibus assumenda voluptatibus voluptate asperiores, quibusdam vero repellat cupiditate odit. Maxime porro ducimus voluptas culpa modi, voluptatibus doloribus tenetur accusamus nesciunt ea cumque obcaecati, illo suscipit. Veniam illo omnis assumenda velit fugit amet dicta unde eveniet cum, molestiae inventore, sed molestias enim nihil libero, architecto quisquam facilis animi ex commodi blanditiis quidem. In, assumenda accusantium error repellat maxime esse.</p>
+                </Col>
+                <Col md={3}>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur minima ducimus dicta adipisci perferendis pariatur dolore error asperiores cum id dolores, nostrum enim ad distinctio praesentium placeat, aliquid dolorem a nam consequuntur sapiente incidunt veritatis. Impedit, hic? Reiciendis tenetur odio libero fugiat minima dolor voluptatem magnam at soluta amet autem animi doloremque consequatur facere debitis hic ea a, ad quidem in sit? Amet, laudantium voluptatum aperiam pariatur odit nisi vel, deleniti quia laborum recusandae neque necessitatibus corrupti iste molestias. Quod, placeat repudiandae. Distinctio fuga explicabo, nulla consequuntur doloribus officia unde fugit maiores quasi sint. Tenetur corrupti incidunt porro quia explicabo.</p>
+                </Col>
+                <Col md={3}>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet modi nobis rerum illum, fugiat blanditiis eius consequuntur sapiente repudiandae voluptatem vero ducimus voluptates aspernatur placeat porro alias. Consectetur voluptatum corporis magnam temporibus non perferendis ipsam! Cum, ab itaque, nisi provident consectetur repudiandae ipsum excepturi deserunt optio adipisci minus doloribus quae magnam laudantium, explicabo debitis dicta cupiditate commodi molestiae tenetur? Excepturi necessitatibus, quo, voluptas sapiente corrupti reprehenderit dolor accusantium, labore numquam reiciendis ullam alias. Voluptatem porro, explicabo consectetur beatae sunt, sapiente odit magnam minima cum deserunt sint, ut placeat doloremque mollitia ea! Excepturi, aut? Molestias ratione maiores dignissimos? Quidem, cupiditate numquam?</p>
+                </Col>
+            </Row>
+        </Container>
+    
+    
+    
+    </>
+  )
+}
+
+export default About
