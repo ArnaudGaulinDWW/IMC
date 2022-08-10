@@ -5,7 +5,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Offcanvas from 'react-bootstrap/Offcanvas';
-import { GiHealing } from "react-icons/gi";
+import { GiWeightScale } from "react-icons/gi";
 import { LinkContainer } from 'react-router-bootstrap';
 
 function OffcanvasTopBar() {
@@ -14,7 +14,7 @@ function OffcanvasTopBar() {
       {[false,].map((expand) => (
         <Navbar key={expand} bg="light" expand={expand} className="mb-3">
           <Container fluid>
-            <Navbar.Brand href="#"><GiHealing /> Calcul de masse corporel</Navbar.Brand>
+            <Navbar.Brand href="#"><GiWeightScale /> Calcul de masse corporel</Navbar.Brand>
             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
             <Navbar.Offcanvas
               id={`offcanvasNavbar-expand-${expand}`}
@@ -28,10 +28,10 @@ function OffcanvasTopBar() {
               </Offcanvas.Header>
               <Offcanvas.Body>
                 <Nav className="justify-content-end flex-grow-1 pe-3">
-                  <LinkContainer to="homescreen" activeClassName>
+                  <LinkContainer to="homescreen">
                     <Nav.Link>Calcul</Nav.Link>
                   </LinkContainer>
-                  <LinkContainer to="about" activeClassName>
+                  <LinkContainer to="about">
                     <Nav.Link>Qui suis-je</Nav.Link>
                   </LinkContainer>
                   <NavDropdown
