@@ -28,7 +28,7 @@ let [imc, setImc] = useState(undefined);
 let handleChange = (evt) =>{
     let weight = document.querySelector('[name=weight]').value;
     let height = document.querySelector('[name=height]').value;
-
+    
     if (!weight || !height) {
         return;
     } else {
@@ -56,6 +56,17 @@ let handleClick = evt => {
     window.localStorage.setItem('imcs', JSON.stringify(newImcs))
 
 };
+
+const handleDelete = (e) => {
+    const name = e.target.getAttribute("name")
+     updateList(list.filter(item => item.name !== name));
+   };
+ 
+
+
+
+
+console.log(imcs)
   return (
     <>
     <Card>
@@ -103,7 +114,7 @@ let handleClick = evt => {
                                     </div>
                                 <ul>
                                     {imcs.map((i, index) =>(
-                                        <li key={index}>{i} </li>
+                                        <li name={index}>{i}<button onClick={handleDelete}>X</button> </li>
                                     ))}
                                 </ul>
                             </div>
