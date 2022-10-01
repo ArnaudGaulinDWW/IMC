@@ -57,10 +57,10 @@ let handleClick = evt => {
 
 };
 
-const handleDelete = (e) => {
-    const name = e.target.getAttribute("name")
-     updateList(list.filter(item => item.name !== name));
-   };
+// const handleDelete = (e) => {
+//     const name = e.target.getAttribute("name")
+//      updateList(list.filter(item => item.name !== name));
+//    };
  
 
 
@@ -114,7 +114,7 @@ console.log(imcs)
                                     </div>
                                 <ul>
                                     {imcs.map((i, index) =>(
-                                        <li name={index}>{i}<button onClick={handleDelete}>X</button> </li>
+                                        <li name={index}>{i}<button>X</button> </li>
                                     ))}
                                 </ul>
                             </div>
