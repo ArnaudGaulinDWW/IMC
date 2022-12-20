@@ -12,8 +12,8 @@ interpretations.set(40, "obesité sévère");
 interpretations.set("infinity", "obésité morbide ou massive");
 
 const erreurs = new Map();
-erreurs.set("pas de nombres négatif")  ;
-erreurs.set(0, "saisir un nombre supérieur a zéro")
+erreurs.set("pas de nombres négatif");
+erreurs.set(0, "saisir un nombre supérieur a zéro");
 
 const HomeScreen = () => {
 
@@ -34,7 +34,7 @@ let handleChange = (evt) =>{
     } else {
 
         let imc = (weight / Math.pow(height, 2)).toFixed(1);
-
+        let id  = imc.length +1;
         let theInterpretation = null;
 
         interpretations.forEach((interpretation, imcKey) => {
@@ -42,7 +42,7 @@ let handleChange = (evt) =>{
                 theInterpretation = interpretation;
             }
         });
-        setImc(new Date().toLocaleDateString('fr-FR') + " " + imc + " " + theInterpretation);
+        setImc(new Date().toLocaleDateString('fr-FR') + " " + imc + " " + theInterpretation + " " + id);
     }
 };
 
@@ -54,17 +54,15 @@ let handleClick = evt => {
     setImcs(newImcs);
 
     window.localStorage.setItem('imcs', JSON.stringify(newImcs))
-
 };
 
-// const handleDelete = (e) => {
-//     const name = e.target.getAttribute("name")
-//      updateList(list.filter(item => item.name !== name));
-//    };
- 
+const handleDelete = (e) => {
+    const name = e.target.getAttribute("name")
 
-
-
+     let newImcs = [imc, ...imcs];
+     setImcs(imcs.filter(item => item.name !== name));
+     window.localStorage.setItem('imcs', JSON.stringify(newImcs))
+   };
 
 console.log(imcs)
   return (
@@ -114,7 +112,7 @@ console.log(imcs)
                                     </div>
                                 <ul>
                                     {imcs.map((i, index) =>(
-                                        <li name={index}>{i}<button>X</button> </li>
+                                        <li  key={index} name={index}>{i}<button>X</button> </li>
                                     ))}
                                 </ul>
                             </div>
